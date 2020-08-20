@@ -1,3 +1,40 @@
-# Scrap Mixx.io
+# Mixx.io sources (scrapping Mixx.io)
 
-Este proyecto sirve de pruebas de tareas web scrapping
+This project is just to work/test web scrapping. Also, generate stats.
+
+Process:
+1. Analyze source, website mixx.io.
+2. Scrape HTML content.
+    * Home.
+    * Other pages.
+3. Parse HTML with Beautiful Soup.
+4. Build job search tool.
+5. Additional work.
+
+Product:
+1. List of links used.
+2. List of sites and density.
+3. Some statistics.
+
+## Analyze source
+Mixx.io is a usable website, easy to use in phones. Structure from the links perspective:
+* Home: links to latests podcasts, pagination and other pages.
+* Posts: audio and links used in podcast. Also sponsor link.
+* Pagination: Each page have about 30 links to posts.
+* Other pages.
+
+
+
+---
+`TODO`
+
+## Scrape HTML content
+
+
+## Parse HTML with Beautiful Soup
+
+
+## Build job search tool
+
+
+## Additional work
