@@ -15,6 +15,8 @@ Product:
 1. List of links used.
 2. List of sites and density.
 3. Some statistics.
+    - Length text
+    - Number of links 
 
 ## Analyze source
 Mixx.io is a usable website, easy to use in phones. Structure from the links perspective:
@@ -24,11 +26,20 @@ Mixx.io is a usable website, easy to use in phones. Structure from the links per
 * Other pages.
 
 
+## Future features
+- Length podcast episode
+- Audio analysis
+
 
 ---
 `TODO`
 
 ## Scrape HTML content
+
+### Remove sponsor links
+Now (2020-08-25) sponsors, are under the first `blockquote` tag. In general all the notes are under this HTML tag.
+
+
 
 
 ## Parse HTML with Beautiful Soup
